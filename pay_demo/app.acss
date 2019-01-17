@@ -1,0 +1,6 @@
+page {
+  width: 100%;
+  background: #f7f7f7;
+  font-family: 黑体;
+  font-size: 28rpx;
+}

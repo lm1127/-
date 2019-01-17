@@ -1,0 +1,29 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/search/search",
+    "pages/order/order",
+    "pages/my/my"
+  ],
+  "tabBar": {
+    "textColor": "#333",
+    "selectedColor": "orange",
+    "backgroundColor": "#ffffff",
+    "items": [{
+      "pagePath": "pages/home/home",
+      "name": "首页"
+    },{
+      "pagePath": "pages/search/search",
+      "name": "发现"
+    },{
+      "pagePath": "pages/order/order",
+      "name": "订单"
+    },{
+      "pagePath": "pages/my/my",
+      "name": "我的"
+    }]
+  },
+  "window": {
+    "defaultTitle": "手机淘宝"
+  }
+}

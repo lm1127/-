@@ -1,0 +1,16 @@
+<view>
+  <swiper
+    indicator-dots="{{indicatorDots}}"
+    autoplay="{{autoplay}}"
+    interval="{{interval}}"
+    circular="{{circular}}"
+  >
+    <block a:for="{{swiperimage}}" a:for-item="item">
+      <swiper-item>
+        <view class="swiper-item bc_{{item}}">
+          <image src="{{item}}" />
+        </view>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
